@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width , initial-scale=1.0">
+  <!-- <link rel="stylesheet" type="text/css" href="static/stylesheet/style.css"> -->
+  <title>CHEF NASHWAN   '_'</title>
+  <link rel="stylesheet" href="/static/stylesheets/style.css">
+
+</head>
+<body>
+
+  <div class="container">
+    <div id="header">
+      <marquee hight="100%" direction="left" hspace="50">
+        <h1> Welcome to my cooking book </h1>
+      </marquee>   
+        <hr>
+        <div id="inputs">
+          <form>
+            <label for="title" class="form">Title </label>
+            <input type="text" placeholder ="Enter the dish name here please" id="title"><br>
+            <label for="ingredients">Ingredients</label>
+            <input type="text" placeholder="Type the ingredients here" id="ingredients"><br>
+            <label for="Instructions">Instructions</label>
+            <input type="text" placeholder="Type the Instructions here" id="instructions"><br>
+            <label for="Rating">Rating</label>
+            <input type="number" placeholder='5 is the best' min="1" max="5" id="rating"><br>
+          </form>
+          <section class="create-read">
+            <button class="create" id="btn"><span>CREATE NEW RECIPE</span></button> <br>
+
+            <button class="read" id="btn" ><span>GET SAVED DATA</span></button> 
+            <!-- <button class="update" id="btn" ><span>UPDATE</span></button>  -->
+            <!-- <button class="delete"><span>DELETE </span></button> -->
+          </section>
+        </div>
+
+        <br>
+        <section class="contents" id="hoho">
+
+         </section>
+        <br><br><br><br><br>
+
+        <label for="api-fetch" class="api">Search for new meal </label>
+        <input type="text" placeholder ="Pouding chomeur - Salmon Avocado Salad ... " id="fetch-input"><br>
+        <h2>Categoryies</h2>
+        <h3>
+          // Breakfast
+          // Seafood
+          // Beef
+          // Dessert
+          // Chicken 
+          // Miscellaneous
+          // Starter
+          // Vegetarian
+          // Pasta
+          // Side
+        </h3>
+         <button class="fetch" id="btn"><span>SEARCH</span></button><br><br>
+
+        <section class="contents2" id="hoho">
+          
+         </section>
+        <!-- <select > 
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select> -->
+ </div>
+ <div id="content"> 
+
+
+  
+    <!-- <img class="welcome" src="https://www.themealdb.com/images/media/meals/nv5lf31628771380.jpg" alt="picture not found"> -->
+</div>
+
+
+
+  <script src="static/scripts/Front_recipes.js"></script>
+</body>
+</html>
+
+

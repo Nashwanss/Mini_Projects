@@ -1,0 +1,201 @@
+
+body {
+    background-color: rgb(229, 244, 208);
+    color: #882d11;
+}
+
+marquee {
+  font-size: larger;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    text-align: left;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+  color: #882d11;
+  margin-left: 30px;
+  text-decoration: underline;
+}
+
+
+p{
+  font-size: x-large;
+  color: black;
+}
+
+
+input {
+    width: 100%;
+    padding: 5px 70px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    color: #118882;
+    border: none;
+    border-bottom: 2px solid rgb(220, 34, 34);
+    border-radius: 4px;
+    font-size: large;
+    background-color: #fafafa;
+}
+
+
+select {
+    width: 40%;
+    padding: 5px 70px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    color: #882d11;
+    border: none;
+    border-bottom: 2px solid rgb(220, 34, 34);
+    border-radius: 4px;
+    font-size: x-large;
+    background-color: #fafafa;
+    background-image: url(https://www.themealdb.com/images/ingredients/Lime.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+}
+
+label {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#btn {
+    border-radius: 4px;
+    background-color: #882d11;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  #btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #btn:hover span {
+    padding-right: 25px;
+  }
+  
+  #btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+.table-database {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+  .table-database td, .table-database th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    
+  .table-database tr:nth-child(even){
+      background-color: #f2f2f2;
+    }
+    
+  .table-database tr:hover {
+      background-color: #ddd;
+    }
+    
+  .table-database th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    button {
+      border-radius: 4px;
+      background-color: #882d11;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 15px;
+      padding: 10px;
+      width: 70px;
+      cursor: pointer;
+      margin: 10px;
+      white-space: nowrap;
+    }
+
+    td {
+      display: flex;
+      justify-content: end;
+      word-break: break-all;
+    }
+    
+    #inputs {
+      display: flex;
+      justify-content:space-around;
+    }
+    
+    .div-database {
+      background-color: rgb(154, 220, 151);
+      width: 50%;
+      height: 400px;
+      margin: 15px;
+      border-radius: 20px;
+    }
+
+    .create , .read {
+    width: 700px ; 
+    height: 100px;
+    }
+
+    #fetch-input {
+      width: 70%;
+    }
+
+    /* .contents2 {
+      display: flex;
+      justify-content: space-between;
+    } */
+
+img {
+  border-radius: 20px;
+    }
+
+    .div-database2 {
+      background-color: rgb(184, 230, 182);
+      width: 100%;
+      height: 1000px;
+      border-radius: 20px;
+    }
+
+.youtubeBtn {
+  color: white;
+  width: 75%;
+  border-radius: 10px;
+}

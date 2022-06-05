@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/stylesheets/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Candal|Chewy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<title>
+    <%= user.name %> Dashboard
+</title>
+
+<body>
+    <div class="todo-container">
+        <div class="name-logout">
+            <h1 style="color:green">
+                <%= user.name %> profile
+            </h1>
+            <a href="/users/logout" class="log-out-btn">Logout</a>
+        </div>
+        <br>
+        <div class="welcoming-messege">
+            <h3>Welcome <%= user.name %> to BookFace dashboard ^_^</h3>
+        </div>
+        <br><br>
+        <div class="pic">
+            <img src="https://www.1800flowers.com/blog/wp-content/uploads/2015/10/red-roses.jpg.webp"
+                alt="file not founded">
+        </div>
+
+        <div class="todo">
+            <br><br>
+
+            <label for="your-post">Post here what do you think</label>
+            <form action="/" method="POST" class="todo-header">
+                <input type="text" name="content">
+                <button type="submit"><span class="fas fa-plus"></span></button>
+            </form>
+            <ul class="todo-list">
+                <li class="todo-list-item">
+                    <div class="todo-list-item-name">New Post is here</div>
+                    <a href="" class="edit">
+                        <span class="fas fa-edit"></span>
+                    </a>
+                    <a href="" class="remove">
+                        <span class="fas fa-times"></span>
+                    </a>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

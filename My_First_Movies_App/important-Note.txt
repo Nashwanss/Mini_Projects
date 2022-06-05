@@ -1,0 +1,2 @@
+Need first to intialize the command 'npm start' from the command from inside the App-Setup
+open the local host 3000 from the browser.
