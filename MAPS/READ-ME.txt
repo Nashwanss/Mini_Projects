@@ -1,3 +1,7 @@
 You haved to initiate :
-npx parcel /index.html ==> from the CLI
-localhost:1234
+go to src folder then,
+
+npx parcel /index.html ==> from the CLI 
+or 
+parcel index.html directly:
+localhost:1234 
