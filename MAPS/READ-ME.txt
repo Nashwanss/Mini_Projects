@@ -1,5 +1,5 @@
-You haved to initiate :
-go to src folder then,
+You need to initiate :
+install npm package then go to src folder and run the command :
 
 npx parcel /index.html ==> from the CLI 
 or 

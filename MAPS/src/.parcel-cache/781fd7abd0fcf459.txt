@@ -1,0 +1,12 @@
+11
+75/home/becode/code/GITHUB/Mini_Projects/maps/src/dist/index.725e94f9.css.map1654592884762697131 0
+63/home/becode/code/GITHUB/Mini_Projects/maps/src/dist/index.html1654592884858695416 0
+74/home/becode/code/GITHUB/Mini_Projects/maps/src/dist/index.d4ccc654.js.map1654592884878695058 0
+70/home/becode/code/GITHUB/Mini_Projects/maps/src/dist/index.d4ccc654.js1654592884858695416 0
+57/home/becode/code/GITHUB/Mini_Projects/maps/src/style.css1646494946459560000 0
+61/home/becode/code/GITHUB/Mini_Projects/maps/src/getAddress.js1646492876907659000 0
+52/home/becode/code/GITHUB/Mini_Projects/maps/src/dist1654592884894694773 1
+56/home/becode/code/GITHUB/Mini_Projects/maps/src/index.js1645446050086872000 0
+58/home/becode/code/GITHUB/Mini_Projects/maps/src/index.html1646494845971306000 0
+71/home/becode/code/GITHUB/Mini_Projects/maps/src/dist/index.725e94f9.css1654592884758697203 0
+47/home/becode/code/GITHUB/Mini_Projects/maps/src1654592923218013193 1
